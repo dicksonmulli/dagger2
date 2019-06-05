@@ -3,7 +3,7 @@ package com.example.dagger2;
 import android.app.Activity;
 import android.app.Application;
 
-import com.example.dagger2.activities.components.DaggerMyApplicationComponent;
+import com.example.dagger2.components.DaggerMyApplicationComponent;
 
 import javax.inject.Inject;
 

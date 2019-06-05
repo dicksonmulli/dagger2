@@ -1,4 +1,4 @@
-package com.example.dagger2.activities.components;
+package com.example.dagger2.components;
 
 import com.example.dagger2.MyApplication;
 import com.example.dagger2.module.MyApplicationModule;
