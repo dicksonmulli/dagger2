@@ -1,19 +1,16 @@
-package com.example.dagger2;
-
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+package com.example.dagger2.network;
 
 import javax.inject.Inject;
 
-public class MainActivity extends AppCompatActivity {
-
+public class NetworkApi {
     @Inject
     public NetworkApi(){
     }
 
     public boolean validateUser(String username, String password) {
-        // imagine an actual network call here
-        // for demo purpose return false in "real" life
+
+        // an actual network call here
+        // return false in "real" life
         if (username == null || username.length() == 0) {
             return false;
         } else {
